@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Placement Portal Application</title>
+
+<!-- Bootstrap for layout/grid utilities & styling (per project spec) -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Typography -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app"></div>
+
+<!-- Vue 3, Vue Router 4, Axios (global builds, no build step required) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.31/vue.global.prod.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/4.4.0/vue-router.global.prod.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chart.js/4.4.3/chart.umd.min.js"></script>
+<!-- Bootstrap JS bundle (for dropdowns/modals) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/services/api.js"></script>
+<script src="js/services/auth.js"></script>
+
+<script src="js/components/NavBar.js"></script>
+<script src="js/components/Login.js"></script>
+<script src="js/components/RegisterStudent.js"></script>
+<script src="js/components/RegisterCompany.js"></script>
+<script src="js/components/PublicDrives.js"></script>
+
+<script src="js/components/AdminDashboard.js"></script>
+<script src="js/components/AdminCompanies.js"></script>
+<script src="js/components/AdminDrives.js"></script>
+<script src="js/components/AdminStudents.js"></script>
+<script src="js/components/AdminReports.js"></script>
+
+<script src="js/components/CompanyDashboard.js"></script>
+<script src="js/components/CompanyProfile.js"></script>
+<script src="js/components/CompanyCreateDrive.js"></script>
+<script src="js/components/CompanyDriveApplications.js"></script>
+
+<script src="js/components/StudentDashboard.js"></script>
+<script src="js/components/StudentProfile.js"></script>
+<script src="js/components/StudentDrives.js"></script>
+<script src="js/components/StudentApplications.js"></script>
+
+<script src="js/app.js"></script>
+</body>
+</html>
